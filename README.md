@@ -2,13 +2,13 @@
 
 This project demonstrates the use of a linear regression model to analyze and predict road accident severity based on various factors. The model is trained on a sample dataset and can be used to make predictions for hypothetical scenarios.
 
-## Table of Contents
+# Table of Contents
 
-- [Installation]
-- [Usage]
-- [Model Details]
+- Installation
+- Usage
+- Model Details
 
-## Installation
+# Installation
 
 To get started with this project, follow the steps below:
 
@@ -24,8 +24,7 @@ To get started with this project, follow the steps below:
     
     pip install -r requirements.txt
    
-
-## Usage
+# Usage
 
 Run the script to train the model and make predictions:
 
@@ -38,7 +37,7 @@ The script will:
 4. Save the trained model.
 5. Provide an example prediction.
 
-## Model Details
+# Model Details
 
 The model predicts road accident severity based on the following features:
 - Speed
@@ -59,7 +58,6 @@ The `python3 severity-analysis.py` performs the following steps:
 
 The script includes an example prediction for a hypothetical set of independent variables:
 
-```python
 hypothetical_data = pd.DataFrame({
     'speed': [70],
     'weather_condition': ['rainy'],
@@ -70,16 +68,3 @@ hypothetical_data = pd.DataFrame({
 
 predicted_severity = model.predict(hypothetical_data)
 print(f'\nPredicted Accident Severity for hypothetical data: {predicted_severity[0]}')
-```
-
-## Contributing
-
-Contributions are welcome! Please fork the repository and submit a pull request for any improvements or bug fixes.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-Replace `yourusername` with your actual GitHub username and save this content in a `README.md` file in your project directory. This will provide clear instructions and information about your project for others who visit your GitHub repository.
